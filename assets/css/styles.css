@@ -684,7 +684,7 @@ h1, h2, p {
   
 }
 #contact .icon {
-	width: 70px;
+	width: 20px;
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
@@ -710,6 +710,18 @@ h1, h2, p {
 #contact .section-title{
   color:white;
 }
+
+
+
+
+.contact-info a {
+  color: #0073b1; /* LinkedIn color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
 .button {
   display: inline-block;
   background-color: darkorange;
@@ -744,20 +756,6 @@ h1, h2, p {
 
 }
 
-@media screen and (max-width: 768px) {
-  .contact__info {
-    width: 100%;
-    text-align: center;
-  }
-
-  .contact-item {
-    flex-direction: column;
-  }
-
-  .contact-item .icon {
-    width: 50px;
-  }
-}
 
 
 
