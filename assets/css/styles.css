@@ -374,6 +374,7 @@ h1, h2, p {
   .home__img {
     width: 250px;
     bottom: 0;
+    margin-top:200px;
   }
 
   .home__social {
@@ -655,7 +656,7 @@ h1, h2, p {
 /* ===== CONTACT ===== */
 
 #contact .contact {
-	flex-direction: column;
+	/*flex-direction: column;*/
 	max-width: 1200px;
 	margin: 0 auto;
 	width: 90%;
@@ -674,7 +675,7 @@ h1, h2, p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+	/*flex-direction: column;*/
 	box-shadow: 0px 0px 18px 0 white;
 	transition: 0.3s ease box-shadow;
   color:orange;
